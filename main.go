@@ -14,7 +14,7 @@
 
 // Chinese listening game: Type the right number after hearing it
 
-// to compile: run packr (from go get -u github.com/gobuffalo/packr/packer) then go build
+// to compile: run packr (from go get -u github.com/gobuffalo/packr/packr) then go build
 
 package main
 
