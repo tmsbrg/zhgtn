@@ -95,8 +95,8 @@ func run() error {
 			break
 		}
 	}
-	fmt.Printf("You got %d/%d (%d%%)\n", correct, times, correct * 100 / times)
-	time.Sleep(2*time.Second)
+	fmt.Printf("You got %d/%d (%d%%)\n", correct, times, correct*100/times)
+	time.Sleep(2 * time.Second)
 
 	return nil
 }
