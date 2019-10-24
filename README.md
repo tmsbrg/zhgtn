@@ -15,10 +15,12 @@ See [my website](https://www.thomasvanderberg.nl/blog/chinese-number-listening-g
 
 ## compile
 
- - `go get -u github.com/gobuffalo/packr/packr`
- - `packr`
- - `go build`
- - `GOOS=windows go build` # make a Windows cross-compile build
+ - install go and add $GOPATH/bin to your $PATH
+ - install dependencies for [oto](https://github.com/hajimehoshi/oto) (Debian/Ubuntu: `apt install libasound2-dev`)
+ - `go get github.com/gobuffalo/packr/packr`
+ - `go get github.com/tmsbrg/zhgtn`
+ - `cd $GOPATH/src/github.com/tmsbrg/zhgtn`
+ - `packr build`
 
 ## license
 
