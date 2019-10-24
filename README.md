@@ -9,6 +9,10 @@ and [packr](https://github.com/gobuffalo/packr) to pack the MP3s into the execut
 
 Tested on Linux and Windows with go version go1.13.3 linux/amd64
 
+## builds and blog post
+
+See [my website](https://www.thomasvanderberg.nl/blog/chinese-number-listening-game/)
+
 ## compile
 
  - `go get -u github.com/gobuffalo/packr/packr`
