@@ -43,6 +43,8 @@ func run() error {
 	}
 	defer player.Close()
 
+	input := bufio.NewScanner(os.Stdin)
+
 	audio := packr.NewBox("./audio")
 
 	rand.Seed(int64(time.Now().Nanosecond()))
@@ -67,7 +69,6 @@ func run() error {
 			return err
 		}
 
-		input := bufio.NewScanner(os.Stdin)
 		for {
 			fmt.Print("Enter the number you heard: ")
 
